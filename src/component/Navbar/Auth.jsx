@@ -18,10 +18,11 @@ function Auth() {
                 <Menu.Item>
                     {({ active }) => (
                     <a
-                        className={`h-10 flex items-center px-2 text-sm rounded ${active && 'bg-white bg-opacity-10'}`}
+                        className={`h-10 flex items-center justify-between px-2 text-sm rounded ${active && 'bg-white bg-opacity-10'}`}
                         href="#"
                     >
                         Account
+                        <Icon size={16} name="external" />
                     </a>
                     )}
                 </Menu.Item>
